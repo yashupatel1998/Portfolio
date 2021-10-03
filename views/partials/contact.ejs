@@ -5,9 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+<style> /* styling part*/
 
 * {
 	margin:0;
@@ -93,8 +91,7 @@ body {
 
 #contact button[type="submit"]:hover {
 	background:#09C;
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
+	
 	transition:background-color 0.3s ease-in-out;
 }
 
@@ -123,19 +120,19 @@ body {
 <body>
 <div class="container">  
   <form id="contact" action="home.ejs" method="POST">
-    <h3>Quick Contact</h3>
+    <h3>REACH OUT ME</h3> <!-- Contact form details -->
     <h4>we will be there soon</h4>
     <fieldset>
       <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input placeholder="Enter email Address" type="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      <input placeholder="Please enter your contact Number" type="tel" tabindex="3" required>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      <textarea placeholder="Type your query Here...." tabindex="5" required></textarea>
     </fieldset>
      <button type="submit" href="http://localhost:4000/home">Submit</button>
 
